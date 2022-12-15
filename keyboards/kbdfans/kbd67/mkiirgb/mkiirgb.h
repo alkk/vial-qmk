@@ -24,5 +24,9 @@
     #include "v3.h"
 #elif defined(KEYBOARD_kbdfans_kbd67_mkiirgb_v4)
     #include "v4.h"	
+#elif defined(KEYBOARD_kbdfans_kbd67_mkiirgb_alk_lite)
+    #include "alk_lite.h"
+#elif defined(KEYBOARD_kbdfans_kbd67_mkiirgb_alk_d65)
+    #include "alk_d65.h"
 #endif
 #include "quantum.h"
